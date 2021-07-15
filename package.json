@@ -1,0 +1,15 @@
+{
+  "name": "random_chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@adiwajshing/baileys": "^3.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Salis Mazaya",
+  "license": "ISC"
+}

@@ -30,7 +30,7 @@ const start = () => {
 	conn.connect()
 		.then(() => {
 			fs.writeFileSync("login.json", JSON.stringify(conn.base64EncodedAuthInfo()));
-			console.log("[OK] Login sukses! kirim !help untuk menampilkan perintah");
+			console.log("[OK] Bot sudah berjalan!");
 		})
 		.catch(e => {
 			if (fs.existsSync("login.json")) fs.unlinkSync("login.json");
